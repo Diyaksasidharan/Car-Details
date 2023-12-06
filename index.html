@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car World</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>Car World</h1>
+    <br><br>
+    <div class="row">
+        <div class="col-1"></div>
+
+        <div class="col-4">
+            <div class="details">
+                <h3>Enter Details</h3>
+                <br>
+                <label for="Car brand">Car Brand</label>
+                <input type="text" name="brand" id="brand" placeholder="Car Brand">
+
+                <br>
+                <label for="Car brand">Price</label>
+                <input type="number" name="price" id="price" placeholder="Price">
+
+                <br>
+                <label for="Car brand">Key</label>
+                <input type="text" name="k" id="k" placeholder="Key">
+
+                <br><br>
+    
+
+                <button id="store" onclick="store()">Store Records</button>
+
+            </div>
+        </div>
+
+        <div class="col-3">
+            <div class="retrieve">
+            <h3>Enter Key To Retrieve Item</h3>
+            
+                <br>
+                <label for="Car brand">Key</label>
+                <input type="text" name="key" id="key" placeholder="Key">
+
+                <br><br>
+
+                
+                <button id="ret" onclick="retrieve()">Retrieve Records</button>
+
+                <div id="result">
+
+                </div>
+        </div>
+    </div>
+        <div class="col-3">
+            <div class="delete">
+                <h3>Enter Key To Delete Item</h3>
+                
+                    <br>
+                    <label for="Car brand">Key</label>
+                    <input type="text" name="key" class="key" placeholder="Key">
+    
+                    <br><br>
+    
+                    <button id="remove" onclick="remove()">Remove Records</button>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    
+   
+    <button id="clear" onclick="localStorageclear()">Clear Records</button>
+</body>
+</html>
+
+<script src="./script.js"></script>

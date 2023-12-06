@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: url('car.jpg'); /* Full background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color:rgb(247, 241, 241);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+  }
+  
+  .details{
+    width: 500px;
+    height: 300px;
+    border: 2px double white;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px white;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+ 
+  
+
+  h3{
+    text-align: center;
+  }
+
+  input{
+    width: 100%;
+    text-align: left;
+    height: 30px;
+    border-radius: 5px;
+  }
+  label{
+    text-align: left;
+  }
+  .col{
+    position: relative;
+  }
+
+#store{
+    width: 190px;
+    height: 40px;
+    color: rgb(230, 240, 230);
+    background-color: rgb(5, 5, 5);
+    border: 1px solid rgb(229, 235, 229);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.delete,.retrieve{
+    width: 300px;
+    height: 300px;
+    border: 2px double white;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px white;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+  #remove{
+    width: 190px;
+    height: 40px;
+    color: rgb(222, 230, 222);
+    background-color: rgb(12, 11, 11);
+    border: 1px solid rgb(241, 245, 241);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#ret{
+    width: 190px;
+    height: 40px;
+    color: rgb(242, 250, 242);
+    background-color: rgb(12, 12, 12);
+    border: 1px solid rgb(218, 223, 218);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#clear{
+    width: 80%;
+    height: 50px;
+    font-size: larger;
+    color: rgb(224, 233, 224);
+    background-color: rgb(15, 14, 14);
+    border: 1px solid rgb(241, 252, 241);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
